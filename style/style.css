@@ -8,11 +8,14 @@
     --bg-color: #000;
     --bg2-color: #6246EA;
     --color: #fff;
+    --color-red: red;
+    --color-blue: blue;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--color);
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -25,6 +28,14 @@ header {
 p  {
     padding-top: 20px;
     padding-bottom: 20px;
+    
+}
+
+.fonte-midium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-red);
 }
 
 h1 {
@@ -33,6 +44,9 @@ h1 {
     margin: auto;
     padding-top: 20px;
     margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .container-campos-de-busca {
@@ -74,11 +88,26 @@ h1 {
     margin: auto;
     margin-top: 10px;
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 
 span {
     float: right;
     margin-left: 5px;
+}
+
+.mapa-de-blocos {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.lista-de-blocos {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 .botão-color {
@@ -103,18 +132,24 @@ img {
     padding-left: 20px;
     padding-bottom: 16px;
     font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 
 .text-paragrafo-do-card {
     text-align: left;
     padding-left: 20px;
     padding-bottom: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .text-informacao-sobre-o-estado {
     text-align: left;
     padding-left: 20px;
     padding-bottom: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .text-informacao-sobre-o-estado::before {
